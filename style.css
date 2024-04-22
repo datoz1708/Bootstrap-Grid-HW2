@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url(font/Mulish-Regular.ttf);
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.col-3 {
+   border: 1px solid #E8E7E7; 
+   border-radius: 12px;
+   box-shadow: 0 1px 50px 0px #00000014;
+   height: 262px;
+   width: 213px;
+   padding: 12px;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headline p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.result {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: last baseline;
+}
+
+.result h6 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 400;
+    color: #272927;
+}
+
+.result p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    color: #818181;
+}
+
+.icon-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 12px;
+}
+
+.blood-sugar {
+    background-color:#F8DEBD;
+}
+
+.heart-rate {
+    background-color: #FBF0F3;
+}
+
+.blood-pressure {
+    background-color: #D0FBFF;
+}
+
+.body-temperature {
+    background-color: #F8BDBD;
+}
+
+.status {
+    width: 58px;
+    height: 23px;
+    border-radius: 4px;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+#blood-sugar-status {
+    background-color: #F8DEBD;
+}
+
+#heart-rate-status {
+    background-color: #FBF0F3;
+}
+
+#blood-pressure-status {
+    background-color: #D0FBFF;
+}
+
+#body-temperature-status {
+    background-color: #F8BDBD;
+}
