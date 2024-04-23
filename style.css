@@ -7,11 +7,8 @@
     src: url(font/Mulish-Regular.ttf);
 }
 
-.row {
-    justify-content: space-between;
-}
-
 .col-3 {
+    margin: 15px auto 20px auto;
    border: 1px solid #E8E7E7; 
    border-radius: 12px;
    box-shadow: 0 1px 50px 0px #00000014;
